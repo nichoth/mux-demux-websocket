@@ -1,0 +1,36 @@
+{
+  "name": "mux-demux-websocket",
+  "version": "0.0.0",
+  "description": "Pipe streams over a websocket",
+  "main": "index.js",
+  "keywords": [
+    "mux-demux",
+    "shoe",
+    "reconnect",
+    "websocket",
+    "stream",
+    "mux"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify -d example/browser.js > example/public/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nichoth/mux-demux-websocket.git"
+  },
+  "author": "Nick Thomas <nichoth@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nichoth/mux-demux-websocket/issues"
+  },
+  "homepage": "https://github.com/nichoth/mux-demux-websocket#readme",
+  "dependencies": {
+    "mux-demux": "^3.7.9",
+    "reconnect-core": "^1.1.0",
+    "shoe": "0.0.15"
+  },
+  "devDependencies": {
+    "ecstatic": "^1.4.0"
+  }
+}
