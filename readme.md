@@ -1,6 +1,6 @@
 # mux demux websocket
 
-Glue together shoe, reconnect-core, and mux-demux.
+Glue together shoe, reconnect-core, and mux-demux. Now we have streams over a websocket that can reconnect and disconnect.
 
 ## example
 
